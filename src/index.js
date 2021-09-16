@@ -1,18 +1,13 @@
 import "normalize.css"
 
-import { saveAs } from "file-saver/FileSaver"
+import { saveAs } from "file-saver"
 import html2canvas from "html2canvas"
 
 import "./scss/main.scss"
-import "./images/verified.svg"
-import "./images/banner.png"
+import "./img/verified.svg"
+import "./img/banner.png"
 
 window.html2canvas = html2canvas
-
-// import "./images/camera-icon.png"
-// import "./images/donald-trump.jpg"
-// import "./images/verified-grey.svg"
-// import "./images/verified.svg"
 
 var elements = {
 	fullname: document.getElementById("tweet--info__names--name"),
